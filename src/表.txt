@@ -1,0 +1,10 @@
+
+---存储查询的语句
+create table DATA_STATEMENT
+(
+  ID         NUMBER not null,
+  NAME       VARCHAR2(100),
+  SQLTEXT    VARCHAR2(4000),
+  REMARK     VARCHAR2(4000),
+  CREATETIME DATE default sysdate
+)
